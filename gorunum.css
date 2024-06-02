@@ -1,0 +1,101 @@
+/*Poppins Yazi Tipi*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  background-color: #2D2D2A;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: #C14953;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4C4C47;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #C14953;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+li a:hover {
+  background-color: #41413d;
+}
+
+.logolar {
+  text-decoration: none;
+  float: right;
+  font-size: 20px;
+  position: relative;
+  color: #C14953;
+
+}
+
+.logolar a:last-child {
+  text-decoration: none;
+  color: #C14953;
+}
+
+.logolar a {
+  text-decoration: none;
+  color: #C14953;
+}
+
+.logolar a:hover {
+  color: #E5DCC5;
+}
+
+.deneme {
+  float: left;
+  margin: 25px;
+  padding: %100;
+  width: 300px;
+  height: 150px;
+  background: #C14953;
+  border-radius: 25px;
+  border-color: #848FA5;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.deneme img {
+
+  float: left;
+  padding: %100;
+  border-radius: 25px;
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all .3s ease-in;
+}
+
+.deneme a {
+  font-family: "Poppins", sans-serif;
+  color: #E5DCC5;
+  text-decoration: none;
+}
+
+.deneme a:hover {
+  font-family: "Poppins", sans-serif;
+  color: #C14953;
+
+}
+
+.deneme img:hover {
+
+  transform: scale(1.1);
+}
